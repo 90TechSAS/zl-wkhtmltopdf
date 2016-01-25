@@ -1,7 +1,7 @@
 zl-wkhtmltopdf
 =========
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Build Status](https://travis-ci.org/90TechSAS/baucis-query-builder.svg?branch=master)](https://travis-ci.org/90TechSAS/baucis-query-builder) [![Coverage Status](https://coveralls.io/repos/github/90TechSAS/zl-wkhtmltopdf/badge.svg?branch=master)](https://coveralls.io/github/90TechSAS/zl-wkhtmltopdf?branch=master)
 
 Convert HTML to PDF using [WKHTMLTOPDF](http://wkhtmltopdf.org/) command line tools. WKHTMLTOPDF is an open source (LGPLv3) command line tools to render HTML into PDF using the Qt WebKit rendering engine.
 
