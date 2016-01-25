@@ -1,0 +1,45 @@
+{
+  "name": "zl-wkhtmltopdf",
+  "version": "1.0.0",
+  "description": "Convert HTML to PDF using WKHTMLTOPDF command line tools.",
+  "main": "lib/wkhtmltopdf.js",
+  "scripts": {
+    "test": "node ./node_modules/standard/bin/cmd.js && mocha --reporter spec",
+    "cover": "node ./node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/90TechSAS/zl-wkhtmltopdf.git"
+  },
+  "keywords": [
+    "wkhtmltopdf",
+    "html",
+    "pdf",
+    "convert"
+  ],
+  "author": "90TechSAS <contact@90tech.fr> (https://www.90tech.fr/)",
+  "contributors": [
+    "Kevin RUBY <contact@kevinruby.me>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/90TechSAS/zl-wkhtmltopdf/issues"
+  },
+  "homepage": "https://github.com/90TechSAS/zl-wkhtmltopdf#readme",
+  "devDependencies": {
+    "chai": "3.4.1",
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.2",
+    "mocha": "2.3.4",
+    "standard": "5.4.1"
+  },
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
+}
